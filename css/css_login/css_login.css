@@ -1,0 +1,31 @@
+.button_efect {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 53px;
+    border: 0px solid #2c8696;
+    border-radius: 4px;
+    background: #2c8696;
+    background: -webkit-gradient(linear, left top, left bottom, from(#2c8696), to(#2c8696));
+    background: -moz-linear-gradient(top, #2c8696, #2c8696);
+    background: linear-gradient(to bottom, #2c8696, #2c8696);
+    text-shadow: #591717 1px 1px 1px;
+    font: normal normal bold 16px arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+.button_efect:hover,
+.button_efect:focus {
+    border: 0px solid #39aec3;
+    background: #35a1b4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#35a1b4), to(#35a1b4));
+    background: -moz-linear-gradient(top, #35a1b4, #35a1b4);
+    background: linear-gradient(to bottom, #35a1b4, #35a1b4);
+    color: #ffffff;
+}
+.button_efect:active {
+    background: #35a1b4;
+    background: -webkit-gradient(linear, left top, left bottom, from(#35a1b4), to(#35a1b4));
+    background: -moz-linear-gradient(top, #35a1b4, #35a1b4);
+    background: linear-gradient(to bottom, #35a1b4, #35a1b4);
+}

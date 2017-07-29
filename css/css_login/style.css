@@ -1,0 +1,183 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+input, select{
+   border-top: 1px solid #00FF00;
+   background: #00FF00;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00FF00), to(#0101DF));
+   background: -webkit-linear-gradient(top, #00FF00, #0101DF);
+   background: -moz-linear-gradient(top, #00FF00, #0101DF);
+   background: -ms-linear-gradient(top, #00FF00, #0101DF);
+   background: -o-linear-gradient(top, #00FF00, #0101DF
+       );
+   padding: 8.5px 17px;
+   -webkit-border-radius: 17px;
+   -moz-border-radius: 17px;
+   border-radius: 17px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+body{
+    background-image: url(../../imagenes/s.png);
+}
+body.home{
+    background-image: url(logo_biofabrica.png)
+}
+table{
+    color: #0101DF;
+    padding: 35px 15px 30px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #1C1C1C;
+}
+
+
+
+p {
+  line-height: 1.5em;
+}
+
+after { clear: both; }
+
+#login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+#login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #58FAF4;
+  border-top: 3px solid #35FA0E;
+  border-bottom: 3px solid #35FA0E;
+}
+
+#login form span {
+  background-color: #35FA0E;
+  border-radius: 3px 0px 0px 3px;
+  border-center: 3px solid #35FA0E;
+  color: #35FA0E;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+   ul {
+                /*margin-left: 10px;
+                margin-right: 279px;*/
+                margin:auto;
+            }
+            li{
+                float: left;
+                list-style: none;
+                margin: 0px;
+            }
+            a{
+                padding: 12px 40px;
+                text-decoration: none;
+                background: #222;
+                color:#fff;
+                font-size: 20px;
+                border-radius: 8px;
+                -webkit-border-radius: 0px;
+            }
+            .ventana_actual{
+                background: #B23B1D;
+                color: #fff;
+            }
+            .resto_ventanas{
+                background: #131009;
+                color: #fff;
+            }
+ * {
+margin:0px;
+padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+
+#menu li ul{
+/*estilo de los submenus*/
+width:120px;
+background:#F8F8F8;
+border:1px #ccc solid;
+display:none; /*importante para que los submenus no estén visibles*/
+position:absolute;
+z-index:999;
+margin-top:0px;
+}
+#menu li ul li{
+/*estilo a cada uno de los elementos(li) de nuestro submenu*/
+width:100%;
+list-style:none;
+display:block;
+}
+#menu li ul li a{
+/*estilo a cada uno de los enlaces de nuestro submenu*/
+color:#21759b;
+font-size:12px;
+line-height:1.3em;
+display:block;
+font-weight:normal;
+padding:8px
+}
+#menu li ul li a:hover{
+/*un poco de decoracion a los enlaces de nuestro submenu al estar el cursor sobre ellos con ayuda de el selector :hover */
+background-color:#F4FA58;
+color:#444;
+text-decoration:underline;
+}
+#menu li:hover ul{display:block;
+}                   
+menu{display:block;}
+ 
+menu li{display: inline-block;
+position: relative;
+z-index:100;}
+ 
+menu li a {font-weight:600;
+text-decoration:none;
+padding:11px;
+display:block;
+color:#ffffff;
+ 
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+menu li a:hover, .menu li:hover > a{color:#F4FA58;
+background:#9CA3DA;}
+
+h3 {
+    color: #FCF8FC;  
+}
+
+p{
+    color: #00FF00;  
+}
